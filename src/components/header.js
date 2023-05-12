@@ -16,7 +16,7 @@ const Header = ({data}) => {
         setOpen(false);
     };
     return ( 
-        <div>
+        <div style={{margin:'10px'}}>
             <Box display='flex' justifyContent='space-between'>
                 <Box  display='flex' >
                     <IconButton  color="primary">
@@ -28,7 +28,7 @@ const Header = ({data}) => {
                     <EditOutlinedIcon fontSize='medium'/>
                </IconButton>
             </Box>
-            <Box  display='flex' justifyContent='space-between' marginTop='10px'>
+            <Box  display='flex' justifyContent='space-between' marginTop='15px'>
                 <Box>
                     <Typography color='#606060' fontSize='14px'>From <span style={{color:'#000' ,fontWeight:'bold'}} >{data.from}</span></Typography>
                     <Typography color='#606060' fontSize='14px'>To <span style={{color:'#000' ,fontWeight:'bold'}}  >{data.to}</span></Typography>

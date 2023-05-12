@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={THEME}>
         <Header data={data}/>
-        <Box style={{display: 'flex' , flexDirection: 'column' , justifyContent: 'center'}}>
+        <Box style={{display: 'flex' , flexDirection: 'column' , justifyContent: 'center',padding: '15px'}}>
           {data && data.chats.map(chat => <ChatCard chat={chat}/>)}
         </Box>
         <Input />

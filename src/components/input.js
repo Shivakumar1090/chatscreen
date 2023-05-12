@@ -17,12 +17,12 @@ export default function Input() {
     <Paper
       component="form"
       elevation={0}
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', marginBottom:'20px'}}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}
         placeholder="Reply"
-        // inputProps={{ 'Mulish': 'search google maps' }}
+
       />
       <Tooltip arrow placement='top' sx={{backgroundColor: "#008000"}} title={
         <Stack direction="row" spacing={2}>
